@@ -19,8 +19,16 @@ const TitleContainer = styled.div`
 
 const HeroTitle = styled.h1`
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.4rem;
   margin: 10px 60px;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
+`
+const HeroSubtitle = styled.h2`
+  font-weight 700; 
+  font-weight 2rem;
+  max-width: 40%;
+  margin: 0 auto; 
   color: #fff;
   text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
 `
@@ -29,6 +37,7 @@ const Hero = ({ className, title }) => (
   <HeroContainer className={className}>
     <TitleContainer>
       <HeroTitle>{title}</HeroTitle>
+      <HeroSubtitle>Software Developer, always learning something new.</HeroSubtitle>
     </TitleContainer>
   </HeroContainer>
 )

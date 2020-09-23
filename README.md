@@ -94,7 +94,7 @@ Update the configuration file with your data. The configuration file is in ```da
 
 ```js
   module.exports = {
-    siteTitle: 'Hi! I\'m Francisco!',
+    siteTitle: 'Hi! I\'m Diego!',
     siteDescription: `Create your online curriculum in just a few minutes with this starter`,
     keyWords: ['gatsbyjs', 'react', 'curriculum'],
     authorName: 'Francisco Santos',
