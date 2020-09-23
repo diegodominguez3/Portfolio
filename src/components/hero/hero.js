@@ -28,9 +28,15 @@ const HeroSubtitle = styled.h2`
   font-weight: 700; 
   font-size: 2rem;
   max-width: 40%;
-  margin: 0 auto; 
+  margin: 2rem auto; 
   color: #fff;
   text-shadow: 1px 1px 10px rgba(34, 34, 34, 0.8);
+  @media (max-width: 768px) {
+    max-width: 100%; 
+  }
+  @media (max-width: 1024px) {
+    max-width: 60%; 
+  }
 `
 
 const Hero = ({ className, title }) => (

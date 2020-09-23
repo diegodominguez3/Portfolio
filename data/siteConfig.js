@@ -10,72 +10,53 @@ module.exports = {
   skills: [
     {
       name: 'HTML',
-      level: 70
+      level: 95
     },
     {
-      name: 'CSS',
-      level: 60
+      name: 'CSS/LESS/Sass',
+      level: 95
     },
     {
       name: 'Javascript',
-      level: 50
+      level: 80
     },
     {
-      name: 'NodeJs',
-      level: 40
+      name: 'PHP',
+      level: 70
     },
     {
       name: 'React',
-      level: 60
+      level: 70
     },
     {
       name: 'Git',
-      level: 70
+      level: 85
     },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "PK Global",
       begin: {
-        month: 'sep',
+        month: 'jan',
         year: '2019'
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+      occupation: "Magento 2 Frontend developer",
+      description: "Current Magento 2 frontend lead developer, responsible for theme creation, module customizations, CMS configurations. Strong skills programming on LESS, HTML, KnockoutJS, PHP, SQL and XML."
   
     },  {
-      company: "Lendico",
+      company: "CCI Global",
       begin: {
-        month: 'apr',
+        month: 'aug',
         year: '2018'
       },
-      duration: null,
+      duration: '4 MOS',
       occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      description: "Developed assets and maintained a Wordpress site with WooCommerce. Worked with CSS, HTML, PHP and javascript to create new features and theme improvements."
   
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
-    },
+    }, 
   ],
   portifolio: [
     {
@@ -91,13 +72,13 @@ module.exports = {
     /* more portifolio items here */
   ],
   social: {
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
+    linkedin: "https://www.linkedin.com/in/diego-dominguez333/",
+    github: "https://github.com/diegodominguez3",
     email: "diegodominguez333@gmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/cover-trees.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
