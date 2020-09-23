@@ -22,15 +22,15 @@ const HeroTitle = styled.h1`
   font-size: 2.4rem;
   margin: 10px 60px;
   color: #fff;
-  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
+  text-shadow: 1px 1px 10px rgba(34, 34, 34, 0.8);
 `
 const HeroSubtitle = styled.h2`
-  font-weight 700; 
-  font-weight 2rem;
+  font-weight: 700; 
+  font-size: 2rem;
   max-width: 40%;
   margin: 0 auto; 
   color: #fff;
-  text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
+  text-shadow: 1px 1px 10px rgba(34, 34, 34, 0.8);
 `
 
 const Hero = ({ className, title }) => (

@@ -4,7 +4,7 @@ module.exports = {
   keyWords: ['gatsbyjs', 'react', 'portafolio', 'personal website'],
   authorName: 'Diego Dominguez',
   githubUsername: 'diegodominguez3',
-  authorAvatar: '/images/avatar.png',
+  authorAvatar: '/images/avatar.png',  
   authorDescription: `Recently graduated from Tecnológico de Monterrey, I'm a web developer, currently focusing on extending my
   knowledge in modern web and mobile application development.`,
   skills: [
