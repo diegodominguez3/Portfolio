@@ -39,11 +39,11 @@ const HeroSubtitle = styled.h2`
   }
 `
 
-const Hero = ({ className, title }) => (
+const Hero = ({className, title, subtitle}) => (
   <HeroContainer className={className}>
     <TitleContainer>
       <HeroTitle>{title}</HeroTitle>
-      <HeroSubtitle>Software Developer, always learning something new.</HeroSubtitle>
+      <HeroSubtitle>{subtitle}</HeroSubtitle>
     </TitleContainer>
   </HeroContainer>
 )

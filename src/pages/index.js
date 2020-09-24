@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
 import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
-import siteConfig from '../../data/siteConfig'
+import siteConfig, { siteDescription } from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
 import loadable from '@loadable/component'
 
@@ -41,6 +41,7 @@ const Home = ({ className, location }) => {
       <Hero
         heroImg={siteConfig.siteCover}
         title={title}
+        subtitle="Software Developer, always learning something new."
       />
 
       <Wrapper className={className} >
@@ -70,7 +71,7 @@ const Home = ({ className, location }) => {
           </Row>
           <Row>
             <Col xs={4} sm={4}>
-              <About title='About' text={siteConfig.authorDescription}/>
+              <About title='About' text={siteConfig.authorDescription} resumeFile={siteConfig.resume}/>
             </Col>
             <Col xs={4} sm={4}>
               <Skills title='Skills' skills={siteConfig.skills} />

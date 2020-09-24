@@ -7,6 +7,7 @@ module.exports = {
   authorAvatar: '/images/avatar.png',  
   authorDescription: `Recently graduated from Tecnológico de Monterrey, I'm a web developer, currently focusing on extending my
   knowledge in modern web and mobile application development.`,
+  resume: '/files/resume.pdf',
   skills: [
     {
       name: 'HTML',
