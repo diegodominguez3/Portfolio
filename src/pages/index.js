@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
-import siteConfig, { siteDescription } from '../../data/siteConfig'
+import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
 import loadable from '@loadable/component'
 
@@ -54,17 +53,14 @@ const Home = ({ className, location }) => {
                 alt='user avatar'
               />
               <div className="social">
-                {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
-                  <FaGithub className="social-icon" size="32" />
+                {siteConfig.social.linkedin && <a className="social-link github" href={siteConfig.social.github}>
+                  <i className="fab fa-github fa-2x"></i>
                 </a>}
                 {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
-                  <FaLinkedin className="social-icon" size="32" />
-                </a>}
-                {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
-                  <FaTwitter className="social-icon" size="32" />
+                  <i className="fab fa-linkedin fa-2x"></i>
                 </a>}
                 {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
-                  <FaEnvelope className="social-icon" size="32" />
+                  <i className="far fa-envelope fa-2x"></i>
                 </a>}
               </div>
             </Col>
@@ -113,7 +109,7 @@ export default styled(Home)`
 
   .social-link {
     padding: 8px;
-    color: #555;
+    color: inherit;
   }
 
   a.social-link.twitter:hover {
