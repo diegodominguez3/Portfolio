@@ -3,6 +3,7 @@ import jsonFetch from "simple-json-fetch";
 import styled from 'styled-components'
 import { GoStar, GoRepoForked, GoLinkExternal } from 'react-icons/go'
 import siteConfig from '../../../data/siteConfig'
+import RepositoriesList from './repositoriesList'
 
 import Loader from '../loader'
 
@@ -11,51 +12,13 @@ const endpoint =
 
 
 class Repositories extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      repos: [],
-      status: 'loading'
-    }
-  }
-  async componentDidMount () {
-    const repos = await jsonFetch(endpoint);
-    if (repos.json && repos.json.length) {
-      this.setState({ repos: repos.json, status: 'ready' })
-    }
-  }
-  render () {
-    const { status } = this.state
+  render () { 
     return (
       <div className={this.props.className}>
         <h2>Latest repositories on Github</h2>
-        {status === "loading" && <div className='repositories__loader'><Loader /></div>}
-        {status === "ready" &&
-          this.state.repos && (
             <React.Fragment>
               <div className="repositories__content">
-                {this.state.repos.map(repo => (
-                  <React.Fragment key={repo.name}>
-                    <div className="repositories__repo">
-                      <a 
-                        className='repositories__repo-link' 
-                        href={repo.html_url}
-                        target="_blank"
-                      >
-                        <strong>{repo.name}</strong>
-                      </a>
-                      <div>{repo.description}</div>
-                      <div className="repositories__repo-date">
-                        Updated: {new Date(repo.updated_at).toUTCString()}
-                      </div>
-                      <div className="repositories__repo-star">
-                        {repo.fork && <GoRepoForked />}
-                        <GoStar /> {repo.stargazers_count}
-                      </div>
-                    </div>
-                    <hr />
-                  </React.Fragment>
-                ))}
+                <RepositoriesList/>
               </div>
               <div className="repositories_user-link">
                 <a 
@@ -67,7 +30,6 @@ class Repositories extends React.Component {
                 </a>
               </div>
             </React.Fragment>
-          )}
       </div>
     )
   }
