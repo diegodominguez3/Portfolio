@@ -7,7 +7,7 @@ module.exports = {
   authorAvatar: '/images/avatar.png',  
   authorDescription: `Recently graduated from Tecnológico de Monterrey, I'm a web developer, currently focusing on extending my
   knowledge in modern web and mobile application development.`,
-  resume: '/files/resume.pdf',
+  resume: 'https://github.com/diegodominguez3/Portfolio/blob/master/static/files/Resume.pdf',
   skills: [
     {
       name: 'HTML',

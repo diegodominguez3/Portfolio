@@ -67,7 +67,7 @@ const Home = ({ className, location }) => {
           </Row>
           <Row>
             <Col xs={4} sm={4}>
-              <About title='About' text={siteConfig.authorDescription} resumeFile={withPrefix(siteConfig.resume)}/>
+              <About title='About' text={siteConfig.authorDescription} resumeFile={siteConfig.resume}/>
             </Col>
             <Col xs={4} sm={4}>
               <Skills title='Skills' skills={siteConfig.skills} />
