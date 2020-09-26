@@ -38,7 +38,7 @@ const Home = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={siteConfig.siteCover}
+        heroImg={withPrefix('/images/cover-trees.jpg')}
         title={title}
         subtitle="Software Developer, always learning something new."
       />
