@@ -99,7 +99,7 @@ module.exports = {
   },
   siteUrl: 'https:/.diegodominguez3.github.io/Portfolio',
   pathPrefix: '/Portfolio', // Note: it must *not* have a trailing slash.
-  siteCover: '/Portfolio/images/cover-tree.jpg',
+  siteCover: '/images/cover-tree.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
