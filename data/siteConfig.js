@@ -104,7 +104,7 @@ module.exports = {
   background_color: '#ffffff',
   theme_color: '#25303B',
   fontColor: "#000000cc",  
-  enableDarkmode: false, // If true, enables dark mode switch
+  enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
