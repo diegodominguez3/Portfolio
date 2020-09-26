@@ -97,14 +97,14 @@ module.exports = {
     github: "https://github.com/diegodominguez3",
     email: "diegodominguez333@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https:/.diegodominguez3.github.io/',
+  pathPrefix: '/Portfolio', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover-trees.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   fontColor: "#000000cc",  
-  enableDarkmode: true, // If true, enables dark mode switch
+  enableDarkmode: false, // If true, enables dark mode switch
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
