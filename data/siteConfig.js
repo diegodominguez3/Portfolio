@@ -97,9 +97,9 @@ module.exports = {
     github: "https://github.com/diegodominguez3",
     email: "diegodominguez333@gmail.com"
   },
-  siteUrl: 'https:/.diegodominguez3.github.io/',
+  siteUrl: 'https:/.diegodominguez3.github.io/Portfolio',
   pathPrefix: '/Portfolio', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover-trees.jpg',
+  siteCover: '/images/cover-tree.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
