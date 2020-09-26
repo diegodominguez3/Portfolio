@@ -61,14 +61,34 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/learning.jpg",
+      description: "Learning Resources",
+      url: "https://learningresources.com"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/educational.jpg",
+      description: "Educational Insights",
+      url: "https://educationalinsights.com"
+    },
+    {
+      image: "/images/dealgenius.jpg",
+      description: "Deal Genius",
+      url: "https://dealgenius.com"
+    },
+    {
+      image: "/images/m2plugin.jpg",
+      description: "Magento 2 minicart plugin",
+      url: "https://github.com/diegodominguez3/Magento2-MinicartPlugin"
+    },
+    {
+      image: "/images/pokedex.jpg",
+      description: "React Pokedex",
+      url: "https://github.com/diegodominguez3/React-Pokedex"
+    },
+    {
+      image: "/images/game-of-life.jpg",
+      description: "React Conway's game of life",
+      url: "https://github.com/diegodominguez3/conway-game-of-life"
     },
     /* more portifolio items here */
   ],
@@ -83,7 +103,7 @@ module.exports = {
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
-  fontColor: "#000000cc",
+  fontColor: "#000000cc",  
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',

@@ -53,10 +53,10 @@ const Home = ({ className, location }) => {
                 alt='user avatar'
               />
               <div className="social">
-                {siteConfig.social.linkedin && <a className="social-link github" href={siteConfig.social.github}>
+                {siteConfig.social.linkedin && <a className="social-link github" target='_blank' href={siteConfig.social.github}>
                   <i className="fab fa-github fa-2x"></i>
                 </a>}
-                {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
+                {siteConfig.social.linkedin && <a className="social-link linkedin" target='_blank' href={siteConfig.social.linkedin}>
                   <i className="fab fa-linkedin fa-2x"></i>
                 </a>}
                 {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>

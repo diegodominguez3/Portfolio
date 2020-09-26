@@ -15,7 +15,7 @@ class Repositories extends React.Component {
   render () { 
     return (
       <div className={this.props.className}>
-        <h2>Latest repositories on Github</h2>
+        <h2>Featured repositories on Github</h2>
             <React.Fragment>
               <div className="repositories__content">
                 <RepositoriesList/>
