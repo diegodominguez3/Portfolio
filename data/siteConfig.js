@@ -61,6 +61,21 @@ module.exports = {
   ],
   portifolio: [
     {
+      image: "/images/pokedex.jpg",
+      description: "React Pokedex",
+      url: "https://github.com/diegodominguez3/React-Pokedex"
+    },
+    {
+      image: "/images/game-of-life.jpg",
+      description: "React Conway's game of life",
+      url: "https://github.com/diegodominguez3/conway-game-of-life"
+    },
+    {
+      image: "/images/m2plugin.jpg",
+      description: "Magento 2 minicart plugin",
+      url: "https://github.com/diegodominguez3/Magento2-MinicartPlugin"
+    },
+    {
       image: "/images/learning.jpg",
       description: "Learning Resources",
       url: "https://learningresources.com"
@@ -74,22 +89,7 @@ module.exports = {
       image: "/images/dealgenius.jpg",
       description: "Deal Genius",
       url: "https://dealgenius.com"
-    },
-    {
-      image: "/images/m2plugin.jpg",
-      description: "Magento 2 minicart plugin",
-      url: "https://github.com/diegodominguez3/Magento2-MinicartPlugin"
-    },
-    {
-      image: "/images/pokedex.jpg",
-      description: "React Pokedex",
-      url: "https://github.com/diegodominguez3/React-Pokedex"
-    },
-    {
-      image: "/images/game-of-life.jpg",
-      description: "React Conway's game of life",
-      url: "https://github.com/diegodominguez3/conway-game-of-life"
-    },
+    }
     /* more portifolio items here */
   ],
   social: {
