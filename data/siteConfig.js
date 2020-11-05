@@ -47,7 +47,8 @@ module.exports = {
       occupation: "Magento 2 Frontend developer",
       description: "Current Magento 2 frontend lead developer, responsible for theme creation, module customizations, CMS configurations. Strong skills programming on LESS, HTML, KnockoutJS, PHP, SQL and XML."
   
-    },  {
+    },  
+    {
       company: "CCI Global",
       begin: {
         month: 'aug',
@@ -58,6 +59,17 @@ module.exports = {
       description: "Developed assets and maintained a Wordpress site with WooCommerce. Worked with CSS, HTML, PHP and javascript to create new features and theme improvements."
   
     }, 
+    {
+      company: "TGC",
+      begin: {
+        month: 'aug',
+        year: '2018'
+      },
+      duration: '4 MOS',
+      occupation: "Software Test Engineer Intern",
+      description: "Worked on a process automation platform based on java and developed an Optical Character Recognition solution to automate invoice transcripts."
+  
+    } 
   ],
   portifolio: [
     {
