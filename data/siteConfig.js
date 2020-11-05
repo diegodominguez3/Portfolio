@@ -5,8 +5,8 @@ module.exports = {
   authorName: 'Diego Dominguez',
   githubUsername: 'diegodominguez3',
   authorAvatar: '/images/avatar.png',  
-  authorDescription: `Recently graduated from Tecnológico de Monterrey, I'm a web developer, currently focusing on extending my
-  knowledge in modern web and mobile application development.`,
+  authorDescription: `I am a software developer passionate about computer science and IT engineering, not afraid to learn new technologies, and always finding a way to improve my skills.
+  <br/><br/>In my free time, I enjoy working on side projects or solving problems, no matter if it's something simple or just for fun. `,
   resume: 'https://github.com/diegodominguez3/Portfolio/blob/master/static/files/Resume.pdf',
   skills: [
     {
