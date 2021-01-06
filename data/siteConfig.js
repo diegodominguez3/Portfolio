@@ -44,8 +44,8 @@ module.exports = {
         year: '2019'
       },
       duration: null,
-      occupation: "Magento 2 Frontend developer",
-      description: "Current Magento 2 frontend lead developer, responsible for theme creation, module customizations, CMS configurations. Strong skills programming on LESS, HTML, KnockoutJS, PHP, SQL and XML."
+      occupation: "Full stack developer",
+      description: "Current frontend lead developer, responsible for theme creation and module customizations for Magento Commerce sites. Strong skills programming on LESS, HTML, KnockoutJS, PHP, SQL and XML."
   
     },  
     {
