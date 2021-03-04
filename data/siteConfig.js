@@ -50,17 +50,6 @@ module.exports = {
         'Current frontend lead developer and full-stack developer for eCommerce. Strong skills programming on LESS, HTML, KnockoutJS, PHP, SQL and XML.',
     },
     {
-      company: 'CCI Global',
-      begin: {
-        month: 'aug',
-        year: '2018',
-      },
-      duration: '4 MOS',
-      occupation: 'Frontend Developer',
-      description:
-        'Developed assets and maintained a Wordpress site with WooCommerce. Worked with CSS, HTML, PHP and javascript to create new features and theme improvements.',
-    },
-    {
       company: 'TGC',
       begin: {
         month: 'Jan',
@@ -70,6 +59,17 @@ module.exports = {
       occupation: 'Software Test Engineer Intern',
       description:
         'Worked on a process automation platform based on java and developed an Optical Character Recognition solution to automate invoice transcripts.',
+    },
+    {
+      company: 'CCI Global',
+      begin: {
+        month: 'aug',
+        year: '2018',
+      },
+      duration: '4 MOS',
+      occupation: 'Frontend Developer',
+      description:
+        'Developed assets and maintained a Wordpress site with WooCommerce. Worked with CSS, HTML, PHP and javascript to create new features and theme improvements.',
     },
   ],
   portifolio: [
